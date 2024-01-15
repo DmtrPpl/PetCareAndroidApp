@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
                     loginPassword.setError("Empty fields are not allowed");
                 }
             } else if (email.isEmpty()) {
-                loginEmail.setError("Empty fields are not allowed");
+                loginEmail.setError("Empty fields are not allowed!");
             } else {
                 loginEmail.setError("Please enter correct email");
             }
